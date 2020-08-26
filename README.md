@@ -28,3 +28,8 @@ First - We're going to need the MVP. This will consist of a home page and some m
 - Data Files
 - Packages
 - routes
+
+## Transitioning to React from express
+Express has been much easier but I want to learn more react and to play around with it and the possibilities are still the same, if not more expanded.
+
+Have to create files/folders, change any files to cater for the new files/folders and make sure the MVP still works.
