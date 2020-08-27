@@ -1,10 +1,14 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 
+import Home from './Home'
+import Page from './Page'
+
 const App = () => {
     return (
         <>
-        <h1>React Time</h1>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/page' component={Page} />
         </>
     )
 }
