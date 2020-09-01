@@ -7,8 +7,8 @@ import Page from './Page'
 const App = () => {
     return (
         <>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/page' component={Page} />
+            <Route exact path='/' component={Home} />
+            <Route exact path='/page' component={Page} />
         </>
     )
 }

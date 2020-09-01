@@ -143,7 +143,7 @@ var Home = function Home() {
     className: "homeTitle centerText"
   }, "The tale of Bento-Boy"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     "class": "homeText centerText"
-  }, " You are now Bento-Boy, the Bento."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }, " You are now Bento-Boy, the Bento box."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/Page",
     style: {
       textDecoration: 'none',
