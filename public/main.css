@@ -2,6 +2,18 @@
     text-align: center;
 }
 
-link {
-    border: 5px solid black;
+.rightText {
+    text-align: center;
+    margin-left: 53%;
+}
+
+.leftText {
+    text-align: left;
+}
+
+.heroEntity {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-align: left;
 }

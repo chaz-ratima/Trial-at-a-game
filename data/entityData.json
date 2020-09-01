@@ -2,13 +2,13 @@
     "entities": [
         {
             "id": 1,
-            "entity": "",
-            "image": ""
+            "entity": "BentoBoy",
+            "image": "./images/bentoBoy.jpg"
         },
         {
             "id": 2,
-            "entity": "",
-            "image": ""
+            "entity": "PotatoBad",
+            "image": "./images/PotatoBadBoy.png"
         },
         {
             "id": 3,
