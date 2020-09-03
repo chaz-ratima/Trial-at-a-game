@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 
 import BentoBoy from './BentoBoy'
 
-
 const Home = () => {
     return (
             <div className="centerText" >

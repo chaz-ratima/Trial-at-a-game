@@ -249,17 +249,7 @@ __webpack_require__.r(__webpack_exports__);
 var Page = function Page() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "rightText"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "paragraphText"
-  }, " You were eaten."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/",
-    style: {
-      textDecoration: 'none',
-      padding: '5px',
-      border: '1px solid black',
-      borderRadius: '20px'
-    }
-  }, "You died. Press Here to Restart!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "heroEntity"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BentoBoy__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
 };
