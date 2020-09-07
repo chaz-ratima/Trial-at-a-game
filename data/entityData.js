@@ -2,7 +2,7 @@ const entities = [
     {
         id: 1,
         entity: "BentoBoy",
-        image: "/images/output-onlinepngtools.png"
+        image: "/images/.png"
     },
     {
         id: 2,
