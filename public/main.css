@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+.colorText {
+    background-color: #101820FF;
+    color: #FEE715FF;
+}
+
 .rightText {
     text-align: center;
     margin-left: 53%;
