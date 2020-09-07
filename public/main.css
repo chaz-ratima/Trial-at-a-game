@@ -2,9 +2,14 @@
     text-align: center;
 }
 
-.colorText {
+.othersText {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.textDeco {
     background-color: #101820FF;
     color: #FEE715FF;
+    font-family: 'Grandstander', cursive;
 }
 
 .rightText {

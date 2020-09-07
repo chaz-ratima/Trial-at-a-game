@@ -179,12 +179,12 @@ var BentoBoy = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "bento-Image"
+        className: "character-image"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "centerText"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: _data_entityData_js__WEBPACK_IMPORTED_MODULE_1__["default"][0].image,
-        alt: "boy bento",
+        alt: "Kaneki Ken",
         width: "300",
         height: "300"
       })));
@@ -327,9 +327,7 @@ var Home = function Home() {
     className: "centerText"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "home-Title"
-  }, "The tale of Bento-Boy"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "home-Text"
-  }, " You are now Bento-Boy, the Bento box Courier.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BentoBoy__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Do it")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BentoBoy__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "centerText"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/name",
@@ -369,7 +367,9 @@ var Page = function Page() {
     className: "centerText"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Scribe"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Turn 1:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Turn 1:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "othersText"
+  }, "\"Psst.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Over Here\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/",
     style: {
       textDecoration: 'none',
@@ -378,7 +378,7 @@ var Page = function Page() {
       borderRadius: '20px',
       backgroundColor: 'white'
     }
-  }, "You died. Press Here to Restart!")));
+  }, "Press!")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Page);
@@ -422,7 +422,7 @@ __webpack_require__.r(__webpack_exports__);
 var entities = [{
   id: 1,
   entity: "BentoBoy",
-  image: "/images/bentoBoy.jpg"
+  image: "/images/output-onlinepngtools.png"
 }, {
   id: 2,
   entity: "PotatoBad",

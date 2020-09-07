@@ -7,8 +7,7 @@ const Home = () => {
     return (
         <div className="Home-title-text" >
             <div className="centerText">
-                <h1 className="home-Title">The tale of Bento-Boy</h1>
-                <p className="home-Text"> You are now Bento-Boy, the Bento box Courier.</p>
+                <h1 className="home-Title">Do it</h1>
             </div>
             <BentoBoy />
             <br></br>
