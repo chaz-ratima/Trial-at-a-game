@@ -1,13 +1,13 @@
 const entities = [
     {
         id: 1,
-        entity: "BentoBoy",
+        entity: "character",
         image: "/images/.png"
     },
     {
         id: 2,
-        entity: "PotatoBad",
-        image: "/images/PotatoBadBoy.png"
+        entity: "",
+        image: ""
     },
     {
         id: 3,

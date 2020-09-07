@@ -1,6 +1,6 @@
 import React from 'react'
 
-import BentoBoy from './BentoBoy'
+import Character from './Character'
 import { Link } from 'react-router-dom'
 
 class HeroName extends React.Component {
@@ -21,7 +21,9 @@ class HeroName extends React.Component {
         {console.log(this.state)}
         return (
             <div className="hero-name-enter" class="centerText">
-                <BentoBoy />
+                <Character />
+                
+                <br></br>
                 <label>Insert Hero Name: </label>
                 <input id="name" type="text" value={this.state.heroName} onChange={this.handleChange} />
                 <Link to='/page'><button onClick={this.nameWrite}>Submit</button></Link>

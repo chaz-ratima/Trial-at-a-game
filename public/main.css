@@ -12,6 +12,10 @@
     font-family: 'Grandstander', cursive;
 }
 
+/* .hiddenText {
+    display: none;
+} */
+
 .rightText {
     text-align: center;
     margin-left: 53%;
