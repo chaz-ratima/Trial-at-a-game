@@ -8,8 +8,8 @@ const Page = () => {
         
 
     return (
-        <div className="centerText">
-            <div className="Scribe">
+        <div>
+            <div className="Scribe-text">
                 <h1>Turn 1:</h1>
                 <p className="othersText">"Psst.<br/>Over Here"</p>
                 
@@ -22,9 +22,9 @@ const Page = () => {
 
 export default Page
         
-    // { Attempt at making a button show the next set of text }
-    // { <button onClick={displayText}>continue?</button> }
-    // { <p className="hiddenText">Blah Blah Blah</p> }
+    // Attempt at making a button show the next set of text
+    // <button onClick={displayText}>continue?</button>
+    // <p className="hiddenText">Me and you... We're the only ones left.</p>
     // function displayText() {
     //     let text = document.getElementsByClassName("hiddenText");
     //     text.style.display = 'block';

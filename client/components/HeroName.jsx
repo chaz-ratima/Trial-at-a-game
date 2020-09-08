@@ -14,19 +14,18 @@ class HeroName extends React.Component {
     }
 
     nameWrite = (event) => {
-        this.setState({heroName: name.value})
+        this.setState({heroName: event.heroName.value})
     }
 
     render () {
-        {console.log(this.state)}
         return (
-            <div className="hero-name-enter" class="centerText">
+            <div className="hero-name-enter">
                 <Character />
                 
                 <br></br>
                 <label>Insert Hero Name: </label>
                 <input id="name" type="text" value={this.state.heroName} onChange={this.handleChange} />
-                <Link to='/page'><button onClick={this.nameWrite}>Submit</button></Link>
+                <Link to='/intro'><button onClick={this.nameWrite}>Submit</button></Link>
             </div>
         )
     }
