@@ -11,7 +11,7 @@ class Intro extends React.Component {
                 </p>
 
                 <br></br>
-                <Link to='/page1' style={{ textDecoration: 'none', padding: '5px', border: '1px solid black', borderRadius: '20px', backgroundColor: 'white' }}>Press!</Link>
+                <Link to='/page1' style={{ textDecoration: 'none', padding: '5px 10px', border: '1px solid black', borderRadius: '20px', backgroundColor: 'white' }}>Press To Start!</Link>
             </div>
         )
     }

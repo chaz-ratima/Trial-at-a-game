@@ -2,7 +2,7 @@ const entities = [
     {
         id: 1,
         entity: "character",
-        image: "/images/.png"
+        image: "/images/character.jpg"
     },
     {
         id: 2,

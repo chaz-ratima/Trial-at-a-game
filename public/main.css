@@ -3,26 +3,21 @@
 }
 
 .othersText {
-    font-family: 'Rajdhani', sans-serif;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Reenie Beanie', cursive;
 }
 
 .textDeco {
     background-color: #101820FF;
     color: #FEE715FF;
+    /* font-family: 'Neuton', serif; */
     font-family: 'Grandstander', cursive;
 }
 
-/* .hiddenText {
-    display: none;
-} */
-
-.rightText {
-    text-align: center;
-    margin-left: 53%;
-}
-
-.leftText {
-    text-align: left;
+.alignment {
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.6;
 }
 
 .heroEntity {
@@ -31,3 +26,18 @@
     left: 5px;
     text-align: left;
 }
+
+img {
+    border-radius: 50%;
+}
+
+/* .centerPage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+} */
+/* .hiddenText {
+    display: none;
+} */

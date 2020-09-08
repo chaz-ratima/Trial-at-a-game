@@ -20,9 +20,6 @@ class HeroName extends React.Component {
     render () {
         return (
             <div className="hero-name-enter">
-                <Character />
-                
-                <br></br>
                 <label>Insert Hero Name: </label>
                 <input id="name" type="text" value={this.state.heroName} onChange={this.handleChange} />
                 <Link to='/intro'><button onClick={this.nameWrite}>Submit</button></Link>
