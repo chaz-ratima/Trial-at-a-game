@@ -7,7 +7,7 @@ class Intro extends React.Component {
         return (
             <div className="intro-Text">
                 <p>
-                    Introduction to the game or story.
+                    Introduction to the story.
                 </p>
 
                 <br></br>
