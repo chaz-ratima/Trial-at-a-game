@@ -29,7 +29,10 @@ class Page2 extends React.Component {
                     {this.state.showText && <p className="othersText">"L-leaaave me.. Alone"</p>}
 
                     <br></br>
-                    {this.state.showNextPageButton && <Link to='/' style={{ textDecoration: 'none', padding: '5px 10px', border: '1px solid black', borderRadius: '20px', backgroundColor: 'white' }}>Press!</Link>}
+                    {this.state.showNextPageButton && <Link to='/page3A' style={{ textDecoration: 'none', padding: '5px 10px', border: '1px solid black', borderRadius: '20px', backgroundColor: 'white' }}>Save him!</Link> }
+                    <br></br>
+                    <br></br>
+                    {this.state.showNextPageButton && <Link to='/page3B' style={{ textDecoration: 'none', padding: '5px 10px', border: '1px solid black', borderRadius: '20px', backgroundColor: 'white' }}>Kill him!</Link>}
                 </div>
             </div>
         )

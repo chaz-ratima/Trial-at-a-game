@@ -14,7 +14,7 @@ Who else is going to do something like this?
 I expect everyone to do websites to be honest... It's what we've been learning and the easiest to achieve.
 But mine will be playable.. A game!
 Maybe someone else has thought of the same idea, but the same story? It's impossible... (Not joking, unless someone just copied me... C'mon bruh)
-I shall achieve this will the learnings we've been provided and the knowledge I've had as an Author (Note: Hasn't published anything or written any plausible "book-sized" literatures...)
+I shall achieve this with the learnings we've been provided and the knowledge I've had as an Author (Note: Hasn't published anything or written any plausible "book-sized" literatures...)
 - Chaz
 
 ###         Steps           ###
